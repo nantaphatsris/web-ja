@@ -262,6 +262,10 @@
     // WebSocket → Node.js → OSC → TouchDesigner
     // Cloudflare Tunnel hostname ต้อง forward ไปยัง server.js port 8080
     const WS_ENDPOINT = "ws://localhost:8080";
+
+    const WS_ENDPOINT = "wss://noon-charitable-est-proceeds.trycloudflare.com";
+    
+    
     const playerInfo = document.getElementById("playerInfo");
     const runAnimationButton = document.getElementById("runAnimation");
     let socket = null;
